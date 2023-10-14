@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: 2px solid black;
+  margin: 20px auto;
+  padding: 20px;
+  background-image: url("https://media.istockphoto.com/vectors/vector-realistic-isolated-green-poker-table-for-decoration-vector-id1299608766?k=20&m=1299608766&s=612x612&w=0&h=ZwlBIc1B5noT2uVZG9yighu1FLc5NoeWrk3KloKsdKM=");
+  max-width: 70vw;
+  height: 90vh;
+}
+.container > h4 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 2rem;
+}
+.board {
+  height: 55%;
+  display: flex;
+}
+.you,
+.dealer {
+  width: 50%;
+  color: #ffffff;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.dealer {
+  border-left: none;
+}
+
+.table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  width: fit-content;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+td,
+th {
+  padding: 5px;
+  border: 1px solid #3f5a54;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  margin: 5px;
+}
